@@ -1,3 +1,29 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Kids Voice Resources"
+
+[params]
+  backgroundColor = "#f5f5f5"
+  mdlPrimary = "pink"
+  mdlAccent = "deep_purple"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = -200
+[[menu.main]]
+  name = "Getting Started"
+  url = "/categories/gettingstarted/"
+  weight = -180
+[[menu.main]]
+  name = "Applying"
+  url = "/categories/applying/"
+  weight = -160
+[[menu.main]]
+  name = "Interviewing"
+  url = "/categories/interviewing"
+  weight = "-140"
+[[menu.main]]
+  name = "On The Job"
+  url = "/categories/onthejob"
+  weight = "-120"

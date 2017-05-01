@@ -1,0 +1,18 @@
+<!-- Site navigation -->
+<header class="mdl-layout__header mdl-layout__header--scroll">
+    <div class="mdl-layout__header-row">
+        <div class="mdl-layout-spacer"></div>
+        <nav class="mdl-navigation">
+        {{- range .Site.Menus.main }}
+        <a class="mdl-navigation__link{{ if eq ($.Permalink | relURL) (.URL | safeHTML) }} mdl-color-text--accent{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+        {{- end }}
+        </nav>
+    </div>
+</header>
+<div class="mdl-layout__drawer">
+    <nav class="mdl-navigation">
+    {{- range .Site.Menus.main }}
+    <a class="mdl-navigation__link{{ if eq ($.Permalink | relURL) (.URL | safeHTML) }} mdl-color-text--accent{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+    {{- end }}
+    </nav>
+</div>

@@ -1,0 +1,23 @@
+            {{- partial "header.html" . }}
+
+<div class="hmdl-list mdl-grid">
+                <div class="mdl-card mdl-shadow--4dp mdl-cell--12-col">
+                    <div class="mdl-card__media mdl-color-text--grey-50">
+                        <h4>{{ .Title }}</h4>
+                    </div>
+                    {{- partial "pagination.html" }}
+                    {{- range .Paginator.Pages }}
+                    <div class="mdl-card__list-item mdl-color-text--grey-600">
+                        <div class="hmdl-page-meta">
+                            <div>
+                                <span>{{ .Date.Format "Jan 2, 2006" }}</span>
+                            </div>
+                            <a href="{{ .RelPermalink }}"><h5 class="mdl-color-text--grey-600">{{ title .Title }}</h5></a>
+                        </div>
+                    </div>
+                    {{- end }}
+                    {{- partial "pagination.html" }}
+                </div>
+            </div>
+
+            {{ partial "footer.html" . }}

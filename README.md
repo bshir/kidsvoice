@@ -1,25 +1,21 @@
-# Victor Hugo
+# Kids Voice
 
-**A [Hugo](https://gohugo.io/) boilerplate for creating truly epic websites**
+Site:  [http://kidsvoice.netlify.com](http://kidsvoice.netlify.com)
 
-This is a boilerplate for using Hugo as a static site generator and Gulp + Webpack as your
-asset pipeline.
+Admin:  [http://kidsvoice.netlify.com/admin](http://kidsvoice.netlify.com/admin)
 
-It's setup to use post-css and babel for CSS and JavaScript.
-
-This project is released under the [MIT license](LICENSE). Please make sure you understand its implications and guarantees.
+This project uses 
+*  Hugo static site generator
+*  Netlify CMS for content administration
+*  post-css and babel for CSS and JavaScript
 
 ## Usage
 
-Be sure that you have the latest node, npm and [Hugo](https://gohugo.io/) installed. If you need to install hugo on OSX, run:
+Be sure that you have git, the latest node, npm and Hugo installed. 
 
-```bash
-brew install hugo
-```
+[Hugo Install Docs](https://hugodocs.info/getting-started/installing/)
 
-If you don't use OSX or don't use homebrew, follow the instructions for installation here instead:
-
-http://gohugo.io/overview/installing/
+[Windows specifically]( https://hugodocs.info/getting-started/installing/#i-class-icon-windows-i-windows)
 
 Next, clone this repository and run:
 
@@ -56,11 +52,7 @@ npm run build
 
 You can read more about Hugo's template language in their documentation here:
 
-https://gohugo.io/templates/overview/
-
-The most useful page there is the one about the available functions:
-
-https://gohugo.io/templates/functions/
+https://hugodocs.info/templates/introduction/#introduction-to-go-templates
 
 For assets that are completely static and don't need to go through the asset pipeline,
 use the `site/static` folder. Images, font-files, etc, all go there.
@@ -68,24 +60,10 @@ use the `site/static` folder. Images, font-files, etc, all go there.
 Files in the static folder ends up in the web root. So a file called `site/static/favicon.ico`
 will end up being available as `/favicon.ico` and so on...
 
-The `src/js/app.js` file is the entrypoint for webpack and will be built to `/dist/app.js`.
+The `src/js/app.js` file is the entry point for webpack and will be built to `/dist/app.js`.
 
 You can use ES6 and use both relative imports or import libraries from npm.
 
 Any CSS file directly under the `src/css/` folder will get compiled with [PostCSS Next](http://cssnext.io/)
 to `/dist/css/{filename}.css`. Import statements will be resolved as part of the build
 
-## Deploying to netlify
-
-- Push your clone to your own GitHub repository.
-- [Create a new site on Netlify](https://app.netlify.com/start) and link the repository.
-
-Now netlify will build and deploy your site whenever you push to git.
-
-You can also click this button:
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/eliwilliamson/victor-hugo)
-
-
-
-## Enjoy!!
