@@ -3,7 +3,7 @@ title: WHAT DOCUMENTS YOU NEED TO GET YOUR..
 description: WHAT DOCUMENTS YOU NEED TO GET YOUR..
 date: 2017-05-01T22:12:18.614Z
 categories:
-  - gettingstarted
+  - getting started
 cardbackground: '#fff'
 ---
 # WHAT DOCUMENTS YOU NEED TO GET YOUR…
@@ -24,9 +24,9 @@ Must be 18- if under 18 a family member or legal representative can obtain it fo
 * Either original birth certificate, U.S. hospital record of birth, religious record established before age 5 showing your age of birth, passport **OR** final adoption decree **AND**
 * U.S. driver’s license or U.S. state-issued identity card **OR** U.S. Passport
 
-\*\* If you do not have a driver’s license or state issued photo ID or passport__ then you can use a student ID, health insurance card (not a Medicare card), or employee identification card.
+    * If you do not have a driver’s license or state issued photo ID or passport__ then you can use a student ID, health insurance card (not a Medicare card), or employee identification card.
 
-\*\* Complete a Social Security Application available on line or at the Social Security office
+    * Complete a Social Security Application available on line or at the Social Security office
 
 ## DRIVER’S LICENSE/STATE ID:
 
