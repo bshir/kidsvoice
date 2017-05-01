@@ -9,7 +9,7 @@ import webpack from "webpack";
 import webpackConfig from "./webpack.conf";
 
 const browserSync = BrowserSync.create();
-const hugoBin = "hugo_0.19";
+const hugoBin = "hugo";
 const defaultArgs = ["-d", "../dist", "-s", "site", "-v"];
 
 gulp.task("hugo", (cb) => buildSite(cb));
@@ -17,6 +17,7 @@ gulp.task("hugo-preview", (cb) => buildSite(cb, ["--buildDrafts", "--buildFuture
 
 gulp.task("build", ["css", "js", "hugo"]);
 gulp.task("build-preview", ["css", "js", "hugo-preview"]);
+gulp.task("build-assets", ["css", "js"]);
 
 gulp.task("css", () => (
   gulp.src("./src/css/*.css")
