@@ -67,3 +67,10 @@ You can use ES6 and use both relative imports or import libraries from npm.
 Any CSS file directly under the `src/css/` folder will get compiled with [PostCSS Next](http://cssnext.io/)
 to `/dist/css/{filename}.css`. Import statements will be resolved as part of the build
 
+## CMS
+
+This site uses the [Netlify CMS](https://www.netlifycms.org/) for content management.  You can learn more by checking out the [docs](https://www.netlifycms.org/docs/)
+
+Since the configuration is already completed, the most important bits are probably the 
+[widgets](https://www.netlifycms.org/docs/widgets/) and the [custom previews](https://www.netlifycms.org/docs/customization/).
+These are the methods that we'll be using to customize the CMS.
