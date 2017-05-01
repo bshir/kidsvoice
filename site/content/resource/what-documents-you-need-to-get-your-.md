@@ -3,7 +3,7 @@ title: WHAT DOCUMENTS YOU NEED TO GET YOUR..
 description: WHAT DOCUMENTS YOU NEED TO GET YOUR..
 date: 2017-05-01T22:12:18.614Z
 categories:
-  - getting started
+  - gettingstarted
 cardbackground: '#fff'
 ---
 # WHAT DOCUMENTS YOU NEED TO GET YOUR…
@@ -113,3 +113,4 @@ Must be 18- if under 18 a family member or legal representative can obtain it fo
 \*\* You should receive notice of a decision in writing within 30 days
 
 \*\* If you are denied every form from Welfare has an appeal form attached you should fill out and appeal with in the time frames so that your benefits do not stop.
+
