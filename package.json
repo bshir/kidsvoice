@@ -7,7 +7,7 @@
     "hugo": "gulp hugo",
     "build": "gulp build",
     "build-preview": "gulp build-preview",
-    "build:prod": "gulp build-assets && hugo_0.19",
+    "build:prod": "gulp build-assets && hugo_0.19 -d ../dist -s site",
     "start": "gulp server",
     "lint": "eslint src"
   },
