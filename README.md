@@ -11,7 +11,7 @@ This project uses
 
 ## Usage
 
-Be sure that you have git, the latest node, npm and Hugo installed. 
+Be sure that you have git, the latest node, npm and Hugo v0.19 installed. 
 
 [Hugo Install Docs](https://hugodocs.info/getting-started/installing/)
 
