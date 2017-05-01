@@ -23,3 +23,36 @@ collections:
       # - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Card Background Color", name: "cardbackground", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "form"
+    label: "Form"
+    folder: "site/content/form"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "categories", name: "categories", widget: "list"}
+      - {label: "Card Background Color", name: "cardbackground", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "tip"
+    label: "Tip"
+    folder: "site/content/tip"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "categories", name: "categories", widget: "list"}
+      - {label: "Card Background Color", name: "cardbackground", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "topic"
+    label: "Topic"
+    folder: "site/content/topic"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "categories", name: "categories", widget: "list"}
+      - {label: "Card Background Color", name: "cardbackground", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
