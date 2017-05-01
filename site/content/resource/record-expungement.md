@@ -1,14 +1,12 @@
 ---
-title: "What should I do if I have a criminal record?"
-description: "Record Expungement"
-date: "2017-04-11"
-type: "resource"
+title: What should I do if I have a criminal record? test
+description: Record Expungement
+date: '2017-04-11'
 categories:
-    - "applying"
-    - "gettingstarted"
-#cardimagelg: "/images/default.jpg"
-#cardimagesm: "/images/default.jpg"
-cardbackground: "#9dd1f1" #optional: overwrites default #263238, only shows when no image specified.
+  - applying
+  - gettingstarted
+cardbackground: '#9dd1f1'
+type: resource
 ---
 
 Expungement is a legal process by which your juvenile record is erased and no one can see it. Your juvenile delinquency record is __not confidential or sealed__. Your record __does not__ automatically go away when you turn 18. Federal and state laws prohibit employment of ex-offenders with criminal convictions in certain jobs. Fortunately there are many cases where your juvenile records can be expunged.
