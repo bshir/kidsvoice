@@ -1,23 +1,20 @@
-            {{- partial "header.html" . }}
+{{- partial "header.html" . }}
 
-<div class="hmdl-list mdl-grid">
-                <div class="mdl-card mdl-shadow--4dp mdl-cell--12-col">
-                    <div class="mdl-card__media mdl-color-text--grey-50">
-                        <h4>{{ .Title }}</h4>
-                    </div>
-                    {{- partial "pagination.html" }}
-                    {{- range .Paginator.Pages }}
-                    <div class="mdl-card__list-item mdl-color-text--grey-600">
-                        <div class="hmdl-page-meta">
-                            <div>
-                                <span>{{ .Date.Format "Jan 2, 2006" }}</span>
-                            </div>
-                            <a href="{{ .RelPermalink }}"><h5 class="mdl-color-text--grey-600">{{ title .Title }}</h5></a>
-                        </div>
-                    </div>
-                    {{- end }}
-                    {{- partial "pagination.html" }}
-                </div>
-            </div>
+<div class="category-list">
 
-            {{ partial "footer.html" . }}
+    {{- range .Paginator.Pages }} 
+
+    <!-- generate a random number for now TODO do this in a meaningful way -->
+    <!-- @see https://discourse.gohugo.io/t/generate-random-number-from-1-to-3-in-template/3136 -->
+    {{ $cardClass := seq 1 5 | shuffle | first 1 }}
+
+    <!-- render each card -->
+    <a href="{{ .RelPermalink }}" class="category-card mdl-card mdl-shadow--4dp card{{ index $cardClass 0 }}">
+        <div class="mdl-card__title">
+            {{ title .Title }}
+        </div>
+    </a>
+    {{- end }}
+</div>
+
+{{ partial "footer.html" . }}

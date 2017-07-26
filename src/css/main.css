@@ -1,1 +1,49 @@
 @import "imports/reset.css";
+
+.category-list {
+    padding: 0 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.category-list a {
+    display: flex;
+    flex: 0 0 auto;
+    width: 30%;
+    text-decoration: none;
+    margin: 1em;
+}
+
+
+.category-list .mdl-card__title {
+    color: inherit;
+}
+
+/* card styles*/
+.category-list .category-card,
+.category-list .category-card.card0 {
+    background-color: white;
+    color: black;
+}
+
+.category-list .category-card.card1 {
+    background-color: #EF445A;
+    flex: 2 0 auto;
+    color: white;
+}
+
+.category-list .category-card.card2 {
+    background-color: #6AC7B1;
+    color: white;
+}
+
+.category-list .category-card.card3 {
+    background-color: #F89F35;
+    color: #CF5E2B;
+}
+
+.category-list .category-card.card5 {
+    background: url('http://cdnassets.hw.net/dims4/GG/bd582c5/2147483647/thumbnail/876x580%3E/quality/90/?url=http%3A%2F%2Fcdnassets.hw.net%2Feb%2F5f%2Fd718865d476281146ccc3123ec85%2Fcf7e55b7c8ae47268890ee2a2625fcbe.jpg') center / cover;
+    color: white;
+}
