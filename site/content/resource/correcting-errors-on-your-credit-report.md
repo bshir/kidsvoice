@@ -3,7 +3,7 @@ title: Correcting Errors on Your Credit Report
 description: Correcting Credit Reports
 date: 2017-05-02T15:20:47.904Z
 categories:
-  - getting started
+  - gettingstarted
 cardbackground: '0xff'
 ---
 [www.consumer.ftc.gov](http://www.consumer.ftc.gov)
@@ -79,3 +79,4 @@ Sincerely,
 Your name
 
 Enclosures: (List what you are enclosing.)
+
