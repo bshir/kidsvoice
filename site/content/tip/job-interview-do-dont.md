@@ -1,13 +1,12 @@
 ---
-title: "Job Interview Do and Don't"
-description: "Have a job interview coming up? Here are some do’s and dont’s"
-date: "2017-04-11"
+title: Job Interview Do and Don't
+description: Have a job interview coming up? Here are some do’s and dont’s
+date: '2017-04-11'
 categories:
-    - "applying"
-    - "gettingstarted"
-#cardimagelg: "/images/default.jpg"
-#cardimagesm: "/images/default.jpg"
-cardbackground: "#ba1200" #optional: overwrites default #263238, only shows when no image specified.
+  - applying
+  - gettingstarted
+  - interviewing
+cardbackground: '#ba1200'
 ---
 
 
